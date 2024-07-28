@@ -8,7 +8,9 @@ This project fetches Marvel characters and their comic appearances using the Mar
 my_marvel_project/
 ├── secrets.yaml
 ├── main.py
-└── __init__.py
+├── cap_assessment.ipyb
+├── requirements.txt
+├── flow_diagram.txt
 ```
 
 ## Prerequisites
@@ -47,7 +49,9 @@ python main.py
 
 - `secrets.yaml`: Contains the Marvel API public and private keys.
 - `main.py`: Main script to fetch characters and comics using Marvel API.
-- `__init__.py`: Marks the directory as a Python package.
+- `cap_assessment.ipyb`: Colab noteboook to run the code.
+- `requirements.txt`: Contains all the dependencies to be installed
+- `flow_diagram.txt`: Contains the flow diagram of get_character()
 
 ## Functions
 
