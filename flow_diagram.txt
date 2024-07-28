@@ -1,0 +1,75 @@
+Start
+  |
+  V
+Create a requests session
+  |
+  V
+Mount TLSAdapter to session
+  |
+  V
+Generate the timestamp (ts)
+  |
+  V
+Set limit to 15
+  |
+  V
+Generate hash string (ts + private_key + public_key)
+  |
+  V
+Create params dictionary:
+  - apikey
+  - ts
+  - hash
+  - orderBy
+  - limit
+  |
+  V
+Send GET request to get_character_url with params
+  |
+  V
+Parse JSON response data
+  |
+  V
+Extract total_characters from response
+  |
+  V
+Print total_characters
+  |
+  V
+Extract characters list from response
+  |
+  V
+Initialize all_character_list as empty list
+  |
+  V
+For each character in characters:
+  |   |
+  |   V
+  | Extract char_name
+  |   |
+  |   V
+  | Extract char_comics_count
+  |   |
+  |   V
+  | Extract comic_item_list
+  |   |
+  |   V
+  | Create character_dict with:
+  |   - character
+  |   - no_of_comics
+  |   - empty comic_list
+  |   |
+  |   V
+  | For each comic in comic_item_list:
+  |   |   |
+  |   |   V
+  |   | Append comic name to character_dict["comic_list"]
+  |   |
+  |   V
+  | Append character_dict to all_character_list
+  |
+  V
+Return all_character_list
+  |
+  V
+End
