@@ -11,6 +11,7 @@ my_marvel_project/
 ├── cap_assessment.ipyb
 ├── requirements.txt
 ├── flow_diagram.txt
+├── flow_diagram.jpg
 ```
 
 ## Prerequisites
@@ -52,6 +53,7 @@ python main.py
 - `cap_assessment.ipyb`: Colab noteboook to run the code.
 - `requirements.txt`: Contains all the dependencies to be installed
 - `flow_diagram.txt`: Contains the flow diagram of get_character()
+- `flow_diagram.jpg`: Contains the flow chart image of the implementation in general
 
 ## Functions
 
